@@ -13,6 +13,16 @@
 	transition: transform 0.5s ease;
 }
 
+.container:hover {
+	background-color: #ffc802;
+	cursor: pointer;
+}
+
+.container:active {
+	background-color: #787878;
+	cursor: pointer;
+}
+
 .container_open {
 	transform: translate(616px);
 }
@@ -28,3 +38,4 @@
 .arrow_open {
 	transform: rotate(0deg);
 }
+
